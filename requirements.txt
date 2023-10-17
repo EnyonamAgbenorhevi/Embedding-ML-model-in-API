@@ -3,3 +3,6 @@ scikit-learn
 fastapi[all]
 pydantic
 uvicorn
+pandas
+numpy
+joblib
