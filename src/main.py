@@ -12,7 +12,7 @@ from sklearn.linear_model import LogisticRegression
 app = FastAPI()
 
 # Load the entire pipeline
-pipeline_filepath = "pipeline.joblib"
+pipeline_filepath = "c:\Users\Enyonam\Desktop\Embedding-ML-model-in-API\pipeline.joblib"
 pipeline = joblib.load(pipeline_filepath)
 
 class PatientData(BaseModel):
@@ -59,3 +59,7 @@ def get_data_from_user(data: PatientData):
         'sepsis_explanation': sepsis_explanation
     }
     return result
+# Run the app using Uvicorn
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=7860)
