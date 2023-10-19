@@ -12,7 +12,7 @@ from sklearn.linear_model import LogisticRegression
 app = FastAPI()
 
 # Load the entire pipeline
-pipeline_filepath = "c:\Users\Enyonam\Desktop\Embedding-ML-model-in-API\pipeline.joblib"
+pipeline_filepath = "pipeline.joblib"
 pipeline = joblib.load(pipeline_filepath)
 
 class PatientData(BaseModel):
