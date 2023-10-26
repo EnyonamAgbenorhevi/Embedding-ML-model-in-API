@@ -95,7 +95,7 @@ To access the sepsis prediction app, you will need to be signed in to Hugging Fa
 
 1. If you don't have a Hugging Face account, you can sign up for free at [Hugging Face](https://huggingface.co/signup).
 2. After signing in, you can access the app using the following URL:
-   🤖[https://petermutwiri-sepsis-api.hf.space](https://petermutwiri-sepsis-api.hf.space)
+   🤖[https://huggingface.co/spaces/Enyonam/Sepsis-Prediction-App]
 
 Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
 
@@ -104,8 +104,7 @@ Please note that you need to be signed in to Hugging Face to utilize this servic
 ## Author
 
 | Name | Article Link | Github |
-| ---- | ------------ | ------ |
-|Peter Mutwiri   |[Predictive Medicine: Building a Sepsis Prediction API for Early Intervention](https://medium.com/@mutpeet/title-predictive-medicine-building-a-sepsis-prediction-api-for-early-intervention-4e2a136a64c3)              |[Peter Mutwiri](https://github.com/PETERMUTWIRI)        |
+| Enyonam Agbenorhevi | [Developing a FastAPI-Based System for Predicting Sepsis](https://medium.com/@luvlyenyo/developing-a-fastapi-based-system-for-predicting-sepsis-112584840932) | [Enyonam Agbenorhevi](https://github.com/EnyonamAgbenorhevi)|
 |      |              |        |
 |      |              |        |
 
